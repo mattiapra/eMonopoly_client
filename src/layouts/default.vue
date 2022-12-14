@@ -1,9 +1,11 @@
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
+  <header>
+    <h1>Monopoly</h1>
+    <figure>
+      <img src="/favicon.png" alt="M">
+    </figure>
+  </header>
+  <main>
     <RouterView />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm">
-      [Default Layout]
-    </div>
   </main>
 </template>
